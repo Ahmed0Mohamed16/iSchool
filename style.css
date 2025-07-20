@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: #f0f0f0;   /* Sets a light gray background */
+    background-color: lightblue;   /* Sets a light gray background */
     width: 100%;   /* Makes the header full width */
     position: fixed;   /* Fixes the header at the top */
     z-index: 999;   /* Ensures the header stays above other elements */
@@ -25,7 +25,7 @@ header {
 .navigation a{
     color: var(--main-blue);   /* Sets link color */
     text-decoration: none;   /* Removes underline */
-    font-size: 1.1em;   /* Adjusts font size */
+    font-size: 1.6em;   /* Adjusts font size */
     font-weight: 500;   /* Sets font weight */
     padding-left: 30px;   /* Adds spacing between links */
 }
