@@ -1,0 +1,126 @@
+:root{
+    --main-blue : green ;   /* Defines a primary blue color variable */
+}
+
+header {
+    background-color: #f0f0f0;   /* Sets a light gray background */
+    width: 100%;   /* Makes the header full width */
+    position: fixed;   /* Fixes the header at the top */
+    z-index: 999;   /* Ensures the header stays above other elements */
+    display: flex;   /* Uses flexbox for layout */
+    flex-wrap: wrap;   /* Allows elements to wrap on smaller screens */
+    justify-content: space-around;   /* Distributes elements evenly */
+    align-items: center;   /* Centers items vertically */
+    padding: 10px 200px;   /* Adds space around the header */
+}
+
+.logo{
+    text-decoration: none;   /* Removes underline */
+    color: var(--main-blue);   /* Uses the primary blue color */
+    text-transform: uppercase;   /* Converts text to uppercase */
+    font-weight: 700;   /* Makes text bold */
+    font-size: 1.8em;   /* Increases font size */
+}
+
+.navigation a{
+    color: var(--main-blue);   /* Sets link color */
+    text-decoration: none;   /* Removes underline */
+    font-size: 1.1em;   /* Adjusts font size */
+    font-weight: 500;   /* Sets font weight */
+    padding-left: 30px;   /* Adds spacing between links */
+}
+
+.navigation a:hover{
+    color: #601cfc;   /* Changes link color on hover */
+}
+
+section {
+    padding: 100px 200px;   /* Adds space around sections */
+}
+
+.main {
+    width: 100%;   /* Full width section */
+    min-height: 100vh;   /* Covers full viewport height */
+    display: flex;   /* Uses flexbox */
+    align-items: center;   /* Centers content vertically */
+    background: url(background.png) no-repeat center/cover fixed;   /* Sets background image */
+}
+
+.main h2 {
+    color: #fff;   /* White text color */
+    font-size: 1.4em;   /* Adjusts font size */
+    font-weight: 500;   /* Medium font weight */
+}
+
+.main h2 span {
+    display: inline-block;   /* Enables proper spacing */
+    margin-top: 10px;   /* Adds spacing */
+    color: #4e9eff;   /* Light blue color */
+    font-size: 3em;   /* Larger text */
+    font-weight: 600;   /* Semi-bold text */
+}
+
+.main h3 {
+    letter-spacing: 1px;   /* Adds spacing between letters */
+    margin-bottom: 30px;   /* Adds spacing below */
+}
+
+.main-btn {
+    color: #fff;   /* White text */
+    background-color: var(--main-blue);   /* Primary button color */
+    text-decoration: none;   /* Removes underline */
+    font-size: 1.1em;   /* Adjusts size */
+    font-weight: 600;   /* Sets font weight */
+    display: inline-block;   /* Allows proper padding and margin */
+    padding: 0.9375em 2.1875em;   /* Button padding */
+    border-radius: 15px;   /* Rounds corners */
+    margin-bottom: 40px;   /* Adds spacing below */
+    transition: 0.7s ease;   /* Smooth hover effect */
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;   /* Darker blue on hover */
+    transform: scale(1.1);   /* Slightly enlarges button */
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;   /* Adjusts icon size */
+    padding-right: 30px;   /* Adds spacing between icons */
+}
+
+.title{
+    display: flex;   /* Enables flexbox */
+    justify-content: center;   /* Centers title */
+    color: var(--main-blue);   /* Uses primary blue */
+    font-size: 2.2em;   /* Adjusts size */
+    font-weight: 800;   /* Bold text */
+    margin-bottom: 30px;   /* Adds spacing */
+}
+
+.content{
+    display: flex;   /* Uses flexbox */
+    flex-direction: row;
+    justify-content: center;   /* Centers content */
+    flex-wrap: wrap;   /* Allows wrapping for responsiveness */
+}
+
+.card {
+    background: #fff;   /* White card background */
+    width: 21.25em;   /* Sets card width */
+    box-shadow: 0 5px 25px black;   /* Adds shadow effect */
+    border-radius: 10px;   /* Rounds corners */
+    padding: 25px;   /* Adds space inside the card */
+    margin: 15px;   /* Adds spacing between cards */
+    transition: 0.7s;   /* Smooth hover transition */
+}
+
+.card:hover{
+    transform: scale(1.1);   /* Enlarges card on hover */
+}
+
+.card .icon{
+    font-size: 8em;   /* Adjusts icon size */
+    text-align: center;   /* Centers icon */
+    color: var(--main-blue);
+}
